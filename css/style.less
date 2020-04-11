@@ -1,0 +1,29 @@
+.custom_slider{
+    .outer_container {
+        overflow: hidden;
+        margin: 0 auto;
+        .inner_container {
+            width: 8000px;
+            display: flex;
+        }
+    }
+    .one_slide{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        img{
+            width: 100%;
+        }
+    }
+    .navs{
+        display: flex;
+        justify-content: center;
+        & > a{
+            text-decoration: none;
+        }
+        .prev_slide{
+            margin-right: 20px;
+        }
+    }
+
+}
